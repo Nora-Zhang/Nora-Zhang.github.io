@@ -1,0 +1,20 @@
+{
+    "login": {
+        "name_field": "Please enter your name:"
+    },
+    "home": {
+        "title": "Handbook for new drivers"
+    },
+    "objective1": {
+        "question": "Which one is ",
+        "answers": ["4", "9", "6", "5"],
+        "correct": "0",
+        "hint": "It is the ",
+        "feedback": ["Correct. ",
+            "Incorrect. ",
+            "Incorrect. ",
+            "Incorrect. "
+            ]
+    }
+    
+}
