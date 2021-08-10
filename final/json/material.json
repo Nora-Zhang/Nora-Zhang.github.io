@@ -5,16 +5,29 @@
     "home": {
         "title": "Handbook for new drivers"
     },
-    "objective1": {
-        "question": "Which one is ",
-        "answers": ["4", "9", "6", "5"],
-        "correct": "0",
-        "hint": "It is the ",
-        "feedback": ["Correct. ",
-            "Incorrect. ",
-            "Incorrect. ",
-            "Incorrect. "
-            ]
-    }
+    "objective1": [
+        {
+            "question": "Which one is ",
+            "answers": ["4", "9", "6", "5"],
+            "correct": "0",
+            "hint": "It is the ",
+            "feedback": ["Correct. ",
+                "Incorrect. ",
+                "Incorrect. ",
+                "Incorrect. "
+                ]
+        },
+        {
+            "question": "What you should do when ",
+            "answers": ["4", "9", "6", "5"],
+            "correct": "2",
+            "hint": "It is the ",
+            "feedback": ["Correct. ",
+                "Incorrect. ",
+                "Incorrect. ",
+                "Incorrect. "
+                ]
+            }
+    ]
     
 }
