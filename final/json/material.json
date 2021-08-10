@@ -6,7 +6,8 @@
         "title": "Handbook for new drivers"
     },
     "objective1": [
-        {
+        {   
+            "type": "choice",
             "question": "Which one is ",
             "answers": ["4", "9", "6", "5"],
             "correct": "0",
