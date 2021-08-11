@@ -9,14 +9,14 @@
         {   
             "type": "choice",
             "picture": "./images/car_controls.gif",
-            "question": "Which of the following is the ",
+            "question": "Which of the following is handbrake?",
             "answers": ["4", "9", "6", "5"],
             "correct": "0",
-            "hint": "It is the ",
+            "hint": "Handbrake is the one you should push up before leaving the car.",
             "feedback": ["Correct. ",
-                "Incorrect. ",
-                "Incorrect. ",
-                "Incorrect. "
+                "Incorrect. It is a rearview mirror.",
+                "Incorrect. It is a brake pedal.",
+                "Incorrect. It is a clutch."
                 ]
         },
         {
