@@ -8,7 +8,8 @@
     "objective1": [
         {   
             "type": "choice",
-            "question": "Which one is ",
+            "picture": "car_controls.gif",
+            "question": "Which of the following is the ",
             "answers": ["4", "9", "6", "5"],
             "correct": "0",
             "hint": "It is the ",
