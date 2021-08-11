@@ -13,21 +13,20 @@
             "answers": ["4", "9", "6", "5"],
             "correct": "0",
             "hint": "Handbrake is the one you should push up before leaving the car.",
-            "feedback": ["Correct. ",
+            "feedback": ["Correct.",
                 "Incorrect. It is a rearview mirror.",
                 "Incorrect. It is a brake pedal.",
                 "Incorrect. It is a clutch."
                 ]
         },
-        {
-            "question": "What you should do when ",
-            "answers": ["4", "9", "6", "5"],
-            "correct": "2",
-            "hint": "It is the ",
-            "feedback": ["Correct. ",
-                "Incorrect. ",
-                "Incorrect. ",
-                "Incorrect. "
+        {   
+            "type": "choice",
+            "question": "What light you should use when driving on the road in city at night?",
+            "answers": ["Full-beam headlamps", "Low-beam headlamps"],
+            "correct": "1",
+            "hint": "On city road, it is usually with lights by the side.",
+            "feedback": ["Incorrect. Full-beam headlamps can disturb the sight of other drivers near you.",
+                "Correct. "
                 ]
             }
     ]
