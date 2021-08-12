@@ -47,36 +47,77 @@
             "answers": ["Step on brake slightly", "Step on brake harshly", "Step on accelerator slightly", "Step on accelerator harshly"],
             "correct": "2",
             "hint": "Think about the resistance due to gravity.",
-            "feedback": ["Incorrect. Full-beam headlamps can disturb the sight of other drivers near you.",
-                "Incorrect. Full-beam headlamps can disturb the sight of other drivers near you.",
+            "feedback": ["Incorrect. Your car won't move if you step on brake.",
+                "Incorrect. Your car won't move if you step on brake.",
                 "Correct. ",
-                "Incorrect. Full-beam headlamps can disturb the sight of other drivers near you."
+                "Incorrect. It can be dangerous to step on accelerator harshly."
                 ]
-            }
+        }
     ],
     "objective3": [
         {   
             "type": "choice",
-            "picture": "./images/car_controls.gif",
-            "question": "Which of the following is handbrake?",
-            "answers": ["4", "9", "6", "5"],
-            "correct": "0",
-            "hint": "Handbrake is the one you should push up before leaving the car.",
-            "feedback": ["Correct.",
-                "Incorrect. It is a rearview mirror.",
-                "Incorrect. It is a brake pedal.",
-                "Incorrect. It is a clutch."
+            "question": "Which of the following is the best time to change lane?",
+            "answers": ["When there is a car closing", "When you are close to a crossroad", "When there is no car nearby"],
+            "correct": "2",
+            "hint": "Put safety at the first place when you are on road.",
+            "feedback": [
+                "Incorrect. Your car may change lane after the other car passes.",
+                "Incorrect. There is no enough space for you to change lane.",
+                "Correct."
                 ]
         },
         {   
             "type": "choice",
-            "question": "What light you should use when driving on the road in city at night?",
-            "answers": ["Full-beam headlamps", "Low-beam headlamps"],
+            "picture": "./images/sign.png",
+            "question": "Which of the following is a warning sign?",
+            "answers": ["Left", "Middle", "Right"],
             "correct": "1",
-            "hint": "On city road, it is usually with lights by the side.",
-            "feedback": ["Incorrect. Full-beam headlamps can disturb the sight of other drivers near you.",
-                "Correct. "
+            "hint": "Notice the color of the signs.",
+            "feedback": ["Incorrect. It is a regulatory sign.",
+                "Correct. ",
+                "Incorrect. It is a guide sign."
                 ]
-            }
+        }
+    ],
+    "summative": [
+        {   
+            "type": "choice",
+            "picture": "./images/car_controls.gif",
+            "question": "Which of the following is clutch?",
+            "answers": ["2", "1", "11", "5"],
+            "correct": "3",
+            "hint": "Clutch is what you step on before you do the shift.",
+            "feedback": [
+                "Incorrect. It is a turn signal switch.",
+                "Incorrect. It is a steer wheel.",
+                "Incorrect. It is a speedometer.",
+                "Correct."
+                ]
+        },
+        {   
+            "type": "choice",
+            "question": "What should you do when your car starts to get down a hill?",
+            "answers": ["Step on brake slightly", "Step on brake harshly", "Step on accelerator slightly", "Step on accelerator harshly"],
+            "correct": "0",
+            "hint": "Think about the influence of gravity.",
+            "feedback": ["Correct. ",
+                "Incorrect. It can be dangerous to step on brake harshly.",
+                "Incorrect. Your car will go too fast if you step on accelerator and get down a hill.",
+                "Incorrect. It can be dangerous to step on accelerator harshly."
+                ]
+        },
+        {   
+            "type": "choice",
+            "picture": "./images/sign.png",
+            "question": "Which of the following is a guide sign?",
+            "answers": ["Left", "Middle", "Right"],
+            "correct": "2",
+            "hint": "Notice the color of the signs.",
+            "feedback": ["Incorrect. It is a regulatory sign.",
+                "Incorrect. It is a warning sign.",
+                "Correct. It is a guide sign."
+                ]
+        }
     ]
 }
